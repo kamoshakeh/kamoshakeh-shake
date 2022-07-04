@@ -1145,6 +1145,10 @@ section {
 }
 .contact .form-button {
   background: #8FBFEC;
+  outline: none;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.3s;
 }
 .contact .form-button:hover {
   background: #3D85C6;
