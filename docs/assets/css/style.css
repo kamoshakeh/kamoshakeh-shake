@@ -1148,6 +1148,7 @@ section {
   border: none;
   color: #fff;
   border-radius: 4px;
+  padding: 5px;
   transition: 0.3s;
 }
 .contact .form-button:hover {
