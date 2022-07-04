@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #78c48c;
+  background: #3D85C6;
   color: #fff;
 }
 .back-to-top.active {
@@ -339,7 +339,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(45, 103, 60, 0.8);
+  background-color: #3d85c6;
+  opacity:0.8;
 }
 #hero .carousel-container {
   display: flex;
@@ -1231,7 +1232,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #449d5b;
+  background: #3D85C6;
   color: #fff;
   text-decoration: none;
 }
