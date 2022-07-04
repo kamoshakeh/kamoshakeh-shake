@@ -1142,6 +1142,13 @@ section {
     transform: rotate(360deg);
   }
 }
+.contact .form-button {
+  background: #8FBFEC;
+}
+.contact .form-button:hover {
+  background: #3D85C6;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
