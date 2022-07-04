@@ -671,7 +671,7 @@
           <p>ご入力頂いた情報は、メッセージのやり取りにのみ使用します。</p>
         </div>
 
-        <div class="row">
+        <!-- <div class="row"> -->
 
           <!--
           <div class="col-lg-5 d-flex align-items-stretch">
@@ -700,8 +700,8 @@
           </div>
           -->
 
+          <!--
           <div class="mt-5 mt-lg-0 d-flex align-items-stretch">
-            <!--
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
@@ -728,19 +728,14 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-            -->
+          </div>
+          -->
 
             <form action="https://formspree.io/f/xlezyeqz" method="POST">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <input type="email" name="email" placeholder="Your email" required>
-                </div>
-                <div class="form-group mt-3">
-                  <textarea name="message" placeholder="Your message" rows="10" required></textarea>
-                </div>
-                <div class="text-center"><button type="submit">Send</button></div>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="message" placeholder="Your message" rows="10" required></textarea>
+              <div class="text-center"><button type="submit">Send</button></div>
             </form>
-          </div>
 
         </div>
 
