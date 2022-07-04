@@ -1145,7 +1145,7 @@ section {
 }
 .contact .form-button {
   background: #8FBFEC;
-  outline: none;
+  border: none;
   color: #fff;
   border-radius: 4px;
   transition: 0.3s;
